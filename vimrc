@@ -10,6 +10,10 @@ Plugin 'gmarik/vundle'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'kien/ctrlp.vim'
 Plugin 'ternjs/tern_for_vim'
+
+let g:tern_show_argumetn_hints='on_hold'
+let g:tern_map_keys=1
+
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'scrooloose/syntastic'
 
