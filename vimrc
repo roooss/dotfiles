@@ -9,9 +9,13 @@ call vundle#begin()
 Plugin 'gmarik/vundle'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'kien/ctrlp.vim'
+
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd \ 'CtrlP'
+
 Plugin 'ternjs/tern_for_vim'
 
-let g:tern_show_argumetn_hints='on_hold'
+let g:tern_show_argument_hints='on_hold'
 let g:tern_map_keys=1
 
 Plugin 'Valloric/YouCompleteMe'
@@ -30,9 +34,6 @@ Plugin 'chriskempson/base16-vim'
 " close vundle call
 call vundle#end()
 filetype plugin indent on
-
-" let g:ctrlp_map = '<c-p>'
-" let g:ctrlp_cmd \ 'CtrlP'
 
 " auto update file from external edits
 set autoread
